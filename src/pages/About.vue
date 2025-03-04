@@ -40,6 +40,24 @@
           motivação é transformar ideias em realidade através da tecnologia,
           sempre buscando aprender e evoluir.
         </p>
+
+        <!-- Links do LinkedIn e GitHub -->
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/vinicius-vilar-90abb4205"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/Devilar132"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
       </div>
 
       <!-- Habilidades Organizadas por Área -->
@@ -216,7 +234,7 @@
         </swiper>
       </div>
 
-      <!-- Rodapé com Instagram -->
+      <!-- Rodapé com Instagram, LinkedIn e GitHub -->
       <footer class="footer">
         <p>
           Vinicius Vilar |
@@ -227,6 +245,22 @@
             >@Vilar_dev</a
           >
         </p>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/seu-linkedin"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/seu-github"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
       </footer>
     </div>
   </section>
@@ -359,6 +393,24 @@ export default {
   color: white;
   max-width: 48rem;
   margin: 0 auto;
+}
+
+/* Links Sociais */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-link {
+  color: #39ff14; /* Cor neon verde */
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #00ffff; /* Cor neon azul ao passar o mouse */
 }
 
 /* Habilidades */
@@ -588,6 +640,23 @@ export default {
   color: #39ff14;
   text-align: center;
   margin-bottom: 2rem;
+}
+/* Links Sociais */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-link {
+  color: #39ff14; /* Cor neon verde */
+  font-size: 3.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #00ffff; /* Cor neon azul ao passar o mouse */
 }
 
 .carousel-hint {
